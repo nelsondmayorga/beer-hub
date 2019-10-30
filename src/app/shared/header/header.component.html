@@ -1,0 +1,24 @@
+<header nz-row>
+  <div nz-col nzSpan="24" >
+
+    <img src="assets/images/logo-beerhub.png" class="logo" alt="beerhub logo">
+
+    <ul nz-menu nzMode="horizontal">
+
+      <li nz-menu-item nzMatchRouter>
+        <a [routerLink]="'/home'"><i nz-icon nzType="home" nzTheme="twotone"></i>Home</a>
+      </li>
+
+      <li nz-menu-item nzMatchRouter>
+        <a [routerLink]="'/my-beers'"><i nz-icon nzType="fire" nzTheme="twotone"></i> My Beers </a>
+      </li>
+
+      <li nz-menu-item nzMatchRouter>
+        <a [routerLink]="'/my-favorites'"><i nz-icon nzType="heart" nzTheme="twotone"></i> My Favorites </a>
+      </li>
+
+    </ul>
+
+  </div>
+
+</header>
